@@ -14,3 +14,7 @@ Employing React.js and Recharts, this website visualizes the rankings of the con
 - Line chart can display all data at once, or one contestant at a time
 - Contestant basic information is shown in the form of cards
 - View the top 7 (potential pool of winners) for each episode
+
+### Live Demo
+
+You can view the live demo of the project here: [Project 7 Ranking Charts](https://project7-rankings.vercel.app/)
