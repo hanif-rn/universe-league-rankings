@@ -19,7 +19,7 @@ const ContestantCard = ({ contestant, onClick }) => {
 
   return (
     <div
-      className="contestant-card relative group card bg-yellow-400 p-2 transform transition-transform duration-300 ease-in-out hover:scale-125 hover:shadow-md hover:shadow-yellow-300 hover:z-20"
+      className="contestant-card relative group card bg-yellow-300 p-2 transform transition-transform duration-300 ease-in-out hover:scale-125 hover:shadow-md hover:shadow-yellow-300 hover:z-20"
       onClick={() => onClick(contestant.Name)}
     >
       <img
@@ -27,7 +27,9 @@ const ContestantCard = ({ contestant, onClick }) => {
         src={`/images/${contestant.Image}`}
         alt={contestant.Name}
       />
-      <h3 className="text-center">{contestant.Name.split("(")[0]}</h3>
+      <h3 className="text-center">
+        {contestant.Name.split("(")[0].replace(/-/g, "")}
+      </h3>
 
       <div
         className="absolute top-2 right-1 text-white text-sm px-2 py-1 rounded-lg"

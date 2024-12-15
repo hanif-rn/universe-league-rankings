@@ -24,7 +24,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-blue-400 p-5" data-theme="lemonade">
       <Header />
-      <div className="card bg-blue-100 w-full md:w-11/12 lg:w-5/6 mx-auto shadow-xl flex flex-col md:flex-row gap-6 p-6 max-h-[555px] overflow-y-auto">
+      <div className="card bg-blue-100 w-full md:w-11/12 lg:w-5/6 mx-auto shadow-xl flex flex-col md:flex-row gap-6 p-6 max-h-full md:max-h-[555px] overflow-y-auto">
         <div className="flex-1">
           <h1 className="text-3xl font-bold underline text-center mb-8">
             Rankings

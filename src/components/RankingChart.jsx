@@ -67,18 +67,14 @@ const RankingChart = ({ contestants, highlighted }) => {
   };
 
   const CustomDot = ({ cx, cy, payload, dataKey }) => {
-    // Find the rank from the episode for the specific contestant
     const rank = payload[dataKey];
 
-    // Hide the dot if the rank is -1 or undefined
     if (rank === undefined || rank < 0) return null;
 
     return (
       <g>
-        {/* Bigger Circle */}
         <circle cx={cx} cy={cy} r={12} />
 
-        {/* Rank Text inside the Circle */}
         {rank !== undefined && (
           <text
             x={cx}

@@ -10,7 +10,7 @@ const Header = () => {
   }, []);
 
   const imageStyle = {
-    maxWidth: windowWidth < 600 ? "80%" : windowWidth < 1000 ? "50%" : "33%",
+    maxWidth: windowWidth < 600 ? "66%" : windowWidth < 1000 ? "50%" : "33%",
     height: "auto",
   };
 
