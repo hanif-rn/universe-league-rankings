@@ -31,9 +31,11 @@ const RankingChart = ({ contestants, highlighted }) => {
 
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
-      const filteredPayload = payload
-        .filter((item) => item.value >= 1 && item.value <= 7)
-        .sort((a, b) => a.value - b.value);
+      const filteredPayload = highlighted
+        ? payload.sort((a, b) => a.value - b.value) // Sort without filtering if highlighted
+        : payload
+            .filter((item) => item.value >= 1 && item.value <= 7) // Apply Top 7 rule
+            .sort((a, b) => a.value - b.value); // Sort for clarity
 
       return (
         <div className="custom-tooltip bg-secondary p-2 text-secondary-content">
