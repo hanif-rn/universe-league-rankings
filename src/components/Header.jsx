@@ -10,7 +10,7 @@ const Header = () => {
   }, []);
 
   const imageStyle = {
-    maxWidth: windowWidth < 600 ? "66%" : windowWidth < 1000 ? "50%" : "33%",
+    maxWidth: windowWidth < 600 ? "50%" : windowWidth < 1000 ? "45%" : "33%",
     height: "auto",
   };
 
@@ -19,7 +19,7 @@ const Header = () => {
     justifyContent: "center",
     alignItems: "center",
     width: "100%",
-    height: "15vh",
+    height: windowWidth < 600 ? "7vh" : windowWidth < 1000 ? "12vh" : "15vh",
     padding: "0 20px",
     boxSizing: "border-box",
   };

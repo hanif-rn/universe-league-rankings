@@ -32,10 +32,10 @@ const RankingChart = ({ contestants, highlighted }) => {
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
       const filteredPayload = highlighted
-        ? payload.sort((a, b) => a.value - b.value) // Sort without filtering if highlighted
+        ? payload.sort((a, b) => a.value - b.value)
         : payload
             .filter((item) => item.value >= 1 && item.value <= 7) // Apply Top 7 rule
-            .sort((a, b) => a.value - b.value); // Sort for clarity
+            .sort((a, b) => a.value - b.value);
 
       return (
         <div className="custom-tooltip bg-blue-300 p-2 text-secondary-content">
@@ -127,7 +127,7 @@ const RankingChart = ({ contestants, highlighted }) => {
                         cx={props.cx}
                         cy={props.cy}
                         payload={props.payload}
-                        dataKey={contestantName} // Passing the dataKey as the name of the contestant
+                        dataKey={contestantName}
                       />
                     )}
                     zIndex={5}

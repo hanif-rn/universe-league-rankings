@@ -26,26 +26,24 @@ const App = () => {
       <Header />
       <div className="card bg-blue-100 w-full md:w-11/12 lg:w-5/6 mx-auto shadow-xl flex flex-col md:flex-row gap-6 p-6 max-h-full md:max-h-[555px] overflow-y-auto">
         <div className="flex-1">
-          <h1 className="text-3xl font-bold underline text-center mb-8">
-            Rankings
+          <h1 className="text-2xl font-bold underline text-center">
+            Trainee Rankings
           </h1>
           <RankingChart contestants={contestants} highlighted={highlighted} />
         </div>
 
         <div className="flex-1 flex flex-col">
-          <div className="flex justify-center mb-4">
-            <div className="w-full max-w-md">
-              <input
-                type="text"
-                placeholder="Search for a trainee..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="w-full p-2 border rounded-md"
-              />
-            </div>
-          </div>
-
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 overflow-auto px-5 py-5">
+          <input
+            type="text"
+            placeholder="Search for a trainee..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            className="w-full p-2 border rounded-md text-center mb-2"
+          />
+          <p className="md:hidden text-center mt-1">
+            Click on trainee profiles to see rank history!
+          </p>
+          <div className="grid grid-cols-3 sm:grid-cols-3 gap-4 overflow-auto px-4 py-5">
             {filteredContestants.map((contestant) => (
               <ContestantCard
                 key={contestant.Name}
@@ -54,6 +52,9 @@ const App = () => {
               />
             ))}
           </div>
+          <p className="text-center mt-1 sm:block hidden">
+            Click on trainee profiles to see rank history
+          </p>
         </div>
       </div>
     </div>
