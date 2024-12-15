@@ -38,7 +38,7 @@ const RankingChart = ({ contestants, highlighted }) => {
             .sort((a, b) => a.value - b.value); // Sort for clarity
 
       return (
-        <div className="custom-tooltip bg-secondary p-2 text-secondary-content">
+        <div className="custom-tooltip bg-blue-300 p-2 text-secondary-content">
           {filteredPayload.map((entry) => (
             <div key={entry.name} className="text-secondary-content">
               {entry.value}){" "}
