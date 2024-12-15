@@ -37,7 +37,7 @@ const App = () => {
             <div className="w-full max-w-md">
               <input
                 type="text"
-                placeholder="Search for a contestant..."
+                placeholder="Search for a trainee..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="w-full p-2 border rounded-md"
@@ -45,7 +45,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 overflow-auto px-5 pt-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 overflow-auto px-5 py-5">
             {filteredContestants.map((contestant) => (
               <ContestantCard
                 key={contestant.Name}
