@@ -31,19 +31,16 @@ const RankingChart = ({ contestants, highlighted }) => {
 
   const CustomTooltip = ({ active, payload }) => {
     if (active && payload && payload.length) {
-      const filteredPayload = highlighted
-        ? payload.sort((a, b) => a.value - b.value)
-        : payload
-            .filter((item) => item.value >= 1 && item.value <= 7)
-            .sort((a, b) => a.value - b.value);
+      const filteredPayload = payload
+        .filter((item) => item.value >= 1 && item.value <= 7)
+        .sort((a, b) => a.value - b.value);
 
       return (
         <div className="custom-tooltip bg-secondary p-2 text-secondary-content">
-          TOP 7
           {filteredPayload.map((entry) => (
             <div key={entry.name} className="text-secondary-content">
-              <strong className="text-secondary-content">{entry.name}: </strong>
-              Rank {entry.value}
+              {entry.value}){" "}
+              <strong className="text-secondary-content">{entry.name} </strong>
             </div>
           ))}
         </div>
@@ -69,9 +66,41 @@ const RankingChart = ({ contestants, highlighted }) => {
     }
   };
 
+  const CustomDot = ({ cx, cy, payload, dataKey }) => {
+    // Find the rank from the episode for the specific contestant
+    const rank = payload[dataKey];
+
+    // Hide the dot if the rank is -1 or undefined
+    if (rank === undefined || rank < 0) return null;
+
+    return (
+      <g>
+        {/* Bigger Circle */}
+        <circle cx={cx} cy={cy} r={12} />
+
+        {/* Rank Text inside the Circle */}
+        {rank !== undefined && (
+          <text
+            x={cx}
+            y={cy}
+            dy={4}
+            textAnchor="middle"
+            fill="white"
+            fontSize={14}
+          >
+            {rank}
+          </text>
+        )}
+      </g>
+    );
+  };
+
   return (
     <ResponsiveContainer width="100%" height={450} className="pr-9">
-      <LineChart data={data}>
+      <LineChart
+        data={data}
+        margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
+      >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis
@@ -94,9 +123,15 @@ const RankingChart = ({ contestants, highlighted }) => {
                     type="monotone"
                     dataKey={contestantName}
                     stroke={strokeColor}
-                    //stroke="#ff7300"
                     strokeWidth={7}
-                    dot={{ r: 6, fill: "#ff7300" }}
+                    dot={(props) => (
+                      <CustomDot
+                        cx={props.cx}
+                        cy={props.cy}
+                        payload={props.payload}
+                        dataKey={contestantName} // Passing the dataKey as the name of the contestant
+                      />
+                    )}
                     zIndex={5}
                   />
                 );
@@ -105,6 +140,7 @@ const RankingChart = ({ contestants, highlighted }) => {
               const contestantName = contestant.Name.split("\n")[0];
               const evaluation = contestant["Master's \nEvaluation"];
               const strokeColor = getStrokeColor(evaluation);
+
               return (
                 contestant[
                   Object.keys(contestant).find((key) => key.startsWith("Ep."))
@@ -114,7 +150,6 @@ const RankingChart = ({ contestants, highlighted }) => {
                     type="monotone"
                     dataKey={contestantName}
                     stroke={strokeColor}
-                    //stroke="#8884d8"
                     strokeWidth={2}
                     dot={false}
                     zIndex={1}

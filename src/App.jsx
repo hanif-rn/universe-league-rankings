@@ -27,7 +27,7 @@ const App = () => {
       <div className="card bg-blue-100 w-full md:w-11/12 lg:w-5/6 mx-auto shadow-xl flex flex-col md:flex-row gap-6 p-6 max-h-[555px] overflow-y-auto">
         <div className="flex-1">
           <h1 className="text-3xl font-bold underline text-center mb-8">
-            Contestant Rankings
+            Rankings
           </h1>
           <RankingChart contestants={contestants} highlighted={highlighted} />
         </div>
@@ -45,7 +45,7 @@ const App = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-4 gap-4 overflow-auto pt-5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 overflow-auto px-5 pt-5">
             {filteredContestants.map((contestant) => (
               <ContestantCard
                 key={contestant.Name}
