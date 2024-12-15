@@ -1,8 +1,13 @@
-# React + Vite
+# Project 7 Ranking Charts
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Interactive chart for Project 7
 
-Currently, two official plugins are available:
+## About this project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Employing React.js and Recharts, this website visualizes the rankings of the contestants of the show "Project 7" by engineering the data through processing Excel and csv files into visual charts.
+
+### Key Features
+
+- Line chart representing ranks per episode for each contestant
+- Line chart can display all data at once, or one contestant at a time
+- Contestant basic information is shown in the form of cards

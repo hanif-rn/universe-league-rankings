@@ -3,6 +3,7 @@ import contestants from "./data/contestant.json";
 import ContestantCard from "./components/ContestantCard";
 import RankingChart from "./components/RankingChart";
 import Header from "./components/Header";
+import { Analytics } from "@vercel/analytics/react";
 import "./index.css";
 
 const App = () => {
@@ -57,6 +58,7 @@ const App = () => {
           </p>
         </div>
       </div>
+      <Analytics />
     </div>
   );
 };
