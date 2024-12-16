@@ -30,7 +30,7 @@ const ContestantCard = ({ contestant, onClick }) => {
       <h3 className="text-center text-xs font-bold">
         {contestant.Name.split("(")[0].replace(/-/g, "")}
       </h3>
-      <h3 className="text-center text-xs">
+      <h3 className="text-center text-xxs">
         {contestant.Company.split("(")[0].replace(/-/g, "")}
       </h3>
 

@@ -38,7 +38,7 @@ const RankingChart = ({ contestants, highlighted }) => {
             .sort((a, b) => a.value - b.value);
 
       return (
-        <div className="custom-tooltip bg-blue-300 p-2 text-secondary-content">
+        <div className="custom-tooltip bg-blue-300 p-2 text-secondary-content max-w-56 md:max-w-96 z-50 rounded-md drop-shadow-lg">
           {filteredPayload.map((entry) => (
             <div key={entry.name} className="text-secondary-content">
               {entry.value}){" "}
@@ -94,7 +94,11 @@ const RankingChart = ({ contestants, highlighted }) => {
   };
 
   return (
-    <ResponsiveContainer width="100%" height={450} className="pr-9">
+    <ResponsiveContainer
+      minHeight={333}
+      maxHeight={490}
+      className="pr-4 sm:pr-0"
+    >
       <LineChart
         data={data}
         margin={{ top: 20, right: 20, bottom: 20, left: 20 }}

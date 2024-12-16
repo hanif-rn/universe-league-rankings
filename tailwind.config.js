@@ -4,7 +4,14 @@ import daisyui from "daisyui";
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        xs: "369px", // New breakpoint for extra small devices
+      },
+      fontSize: {
+        xxs: "0.625rem", // 10px
+      },
+    },
   },
   plugins: [daisyui],
   daisyui: {
