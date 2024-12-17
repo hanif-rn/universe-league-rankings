@@ -57,7 +57,7 @@ const App = () => {
           <p className="md:hidden text-center mt-1">
             Click on trainee profiles to see rank history!
           </p>
-          <div className="grid grid-cols-2 xs:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-3 lg:gap-2 overflow-auto px-4 py-5">
+          <div className="grid grid-cols-2 xs:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-3 lg:gap-2 overflow-auto px-4 py-5">
             {filteredContestants.map((contestant) => (
               <ContestantCard
                 key={contestant.Name}
