@@ -54,6 +54,7 @@ def remove_references(text):
     """
     text = re.sub(r"\[.*?\]", "", text)  # Remove text within square brackets
     text = text.replace("\n", "")         # Remove newline characters
+    text = text.replace("Entertainment", "Ent.")         # Remove newline characters
     text = re.sub(r"(?<=[^ ])\(", " (", text)  # Add space before "(" if not preceded by a space
     return text.strip()  # Remove leading/trailing whitespace
 

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef } from "react";
 import {
   LineChart,
   Line,
@@ -8,6 +8,9 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import ContestantCardB from "./ContestantCardB";
+import Draggable from "react-draggable";
+import { FaGripHorizontal } from "react-icons/fa";
 
 const RankingChart = ({ contestants, highlighted }) => {
   const convertData = (contestants) => {
@@ -92,6 +95,7 @@ const RankingChart = ({ contestants, highlighted }) => {
       </g>
     );
   };
+  const nodeRef = useRef(null);
 
   return (
     <ResponsiveContainer
@@ -102,6 +106,7 @@ const RankingChart = ({ contestants, highlighted }) => {
       <LineChart
         data={data}
         margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
+        animationDuration={100}
       >
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
@@ -160,6 +165,31 @@ const RankingChart = ({ contestants, highlighted }) => {
               );
             })}
       </LineChart>
+      {highlighted && (
+        <Draggable nodeRef={nodeRef}>
+          <div
+            ref={nodeRef} // Attach the ref to the element
+            className="fixed bottom-7 left-7 p-4 z-50 ease-in-out"
+            style={{
+              width: "280px",
+              backgroundColor: "rgba(255, 255, 255, 0.8)",
+              boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
+              borderRadius: "16px",
+            }}
+          >
+            <div className="flex items-center justify-center cursor-grab bg-gray-300 rounded-t-lg">
+              <FaGripHorizontal className="text-gray-600 text-xl" />
+            </div>
+            <ContestantCardB
+              contestant={contestants.find(
+                (contestant) => contestant.Name === highlighted
+              )}
+              onClick={() => {}}
+              highlighted={highlighted}
+            />
+          </div>
+        </Draggable>
+      )}
     </ResponsiveContainer>
   );
 };

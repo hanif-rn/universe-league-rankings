@@ -27,15 +27,20 @@ const App = () => {
     <div className="min-h-screen bg-blue-400 p-5" data-theme="lemonade">
       <Header />
 
-      <div className="card bg-blue-100 w-full md:w-11/12 lg:w-5/6 mx-auto shadow-xl flex flex-col md:flex-row gap-6 py-6 pr-6 max-h-full md:max-h-[555px] overflow-y-auto">
-        <div className="flex-1">
+      <div
+        className="card bg-blue-100 
+                      w-full md:w-11/12 lg:w-5/6 
+                      mx-auto shadow-xl flex flex-col md:flex-row gap-6 
+                      py-6 pr-6 max-h-full md:max-h-[75vh] overflow-y-auto"
+      >
+        <div className="flex-[2] max-w-full md:max-w-[66%]">
           <h1 className="text-2xl font-bold underline text-center">
             Trainee Rankings
           </h1>
           <RankingChart contestants={contestants} highlighted={highlighted} />
         </div>
 
-        <div className="flex-1 flex flex-col pl-6 sm:pl-5 lg:pl-0">
+        <div className="flex-[1] flex flex-col pl-6 sm:pl-5 lg:pl-0">
           <div className="relative w-full">
             <input
               type="text"
@@ -57,16 +62,17 @@ const App = () => {
           <p className="md:hidden text-center mt-1">
             Click on trainee profiles to see rank history!
           </p>
-          <div className="grid grid-cols-2 xs:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-3 lg:gap-2 overflow-auto px-4 py-5">
+          <div className="grid grid-cols-2 xs:grid-cols-3 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-3 md:gap-2 lg:gap-1 overflow-auto px-4 py-5">
             {filteredContestants.map((contestant) => (
               <ContestantCard
                 key={contestant.Name}
                 contestant={contestant}
                 onClick={handleCardClick}
+                highlighted={highlighted}
               />
             ))}
           </div>
-          <p className="text-center mt-1 sm:block hidden">
+          <p className="text-center mt-1 sm:block hidden text-xxs lg:text-sm">
             Click on trainee profiles to see rank history!
           </p>
         </div>
