@@ -16,7 +16,7 @@ const Bio = ({ name, imgurl }) => {
   };
 
   useEffect(() => {
-    const biodata = language === "kr" ? biodataEN : biodataKR;
+    const biodata = language === "en" ? biodataEN : biodataKR;
     findBio(biodata);
   }, [language, name]);
 
@@ -40,6 +40,7 @@ const Bio = ({ name, imgurl }) => {
             <button
               className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2"
               onClick={() => my_modal_3.close()}
+              onTouchEnd={() => my_modal_3.close()}
             >
               ✕
             </button>
