@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import contestants from "./data/contestant.json";
 import ContestantCard from "./components/ContestantCard";
 import RankingChart from "./components/RankingChart";
@@ -9,7 +9,6 @@ import "./index.css";
 const App = () => {
   const [highlighted, setHighlighted] = useState(null);
   const [searchQuery, setSearchQuery] = useState("");
-  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
   const handleCardClick = (contestant) => {
     setHighlighted((prevHighlighted) =>

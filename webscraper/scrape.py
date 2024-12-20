@@ -3,6 +3,8 @@ import bs4
 import re
 from itertools import product
 import json
+import time
+
 
 def table_to_2d(table_tag):
     rowspans = [] 
@@ -116,6 +118,7 @@ table = soup.find_all('table')[2]
 rows = table.find_all('tr')
 table_data = table_to_2d(table)
 data=[]
+data2=[]
 
 for row in table_data[3:]:
     if len(row) >= 1:
@@ -144,8 +147,38 @@ for row in table_data[3:]:
                 "Final": final,
                 "Image": img
             })
+        URL = 'https://project7.kr/' + get_image_url(name).lower()
+        try:
+            req = requests.get(URL)
+            req.encoding = 'utf-8'  # Ensure correct encoding
+            soup = bs4.BeautifulSoup(req.text, 'html.parser')
+
+            # Extract the first <p> tag (Quote)
+            quote_tag = soup.find('p')
+            quote = quote_tag.get_text(strip=True) if quote_tag else None
+
+            # Extract the first 4 <dd> tags
+            dd_tags = soup.find_all('dd')
+            dd1, dd2, dd3, dd4 = (dd_tags[i].get_text(strip=True) if i < len(dd_tags) else None for i in range(4))
+
+            # Append data to data2 (e.g., biodata)
+            data2.append({
+                "Name": name,
+                "Quote": quote,
+                "DoB": dd1,
+                "Likes": dd2,
+                "MBTI": dd3,
+                "Nationality": dd4
+            })
+        except requests.exceptions.RequestException as e:
+            print(f"Failed to fetch {URL}: {e}")
+            continue
+
     else:
         print(f"Row has insufficient cells: {row}")
 
 with open('contestant.json', 'w', encoding='utf-8') as outfile: 
     json.dump(data, outfile, indent=4, ensure_ascii=False) 
+
+with open('biodata.json', 'w', encoding='utf-8') as outfile:
+    json.dump(data2, outfile, indent=4, ensure_ascii=False)
