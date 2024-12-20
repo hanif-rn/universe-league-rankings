@@ -130,9 +130,19 @@ for row in table_data[3:]:
         ep3 = string_to_int(remove_references(row[5]))
         ep5 = string_to_int(remove_references(row[6]))
         ep6 = string_to_int(remove_references(row[7]))
+            
         ep8 = string_to_int(remove_references(row[8]))
-        final = string_to_int(remove_references(row[9]))
+        ep11 = string_to_int(remove_references(row[9]))
+        final = string_to_int(remove_references(row[10]))
         img = get_image_url(name) + ".jpg"
+        if ep5 > 70:
+            ep6 = -1
+            ep8 = -1
+            ep11= -1
+
+        if ep8 > 35:
+            ep11= -1
+
 
         data.append({
                 "Company": company,
@@ -144,41 +154,14 @@ for row in table_data[3:]:
                 "Ep. 5": ep5,
                 "Ep. 6": ep6,
                 "Ep. 8": ep8,
+                "Ep. 11": ep11,
                 "Final": final,
                 "Image": img
             })
-        URL = 'https://project7.kr/' + get_image_url(name).lower()
-        try:
-            req = requests.get(URL)
-            req.encoding = 'utf-8'  # Ensure correct encoding
-            soup = bs4.BeautifulSoup(req.text, 'html.parser')
-
-            # Extract the first <p> tag (Quote)
-            quote_tag = soup.find('p')
-            quote = quote_tag.get_text(strip=True) if quote_tag else None
-
-            # Extract the first 4 <dd> tags
-            dd_tags = soup.find_all('dd')
-            dd1, dd2, dd3, dd4 = (dd_tags[i].get_text(strip=True) if i < len(dd_tags) else None for i in range(4))
-
-            # Append data to data2 (e.g., biodata)
-            data2.append({
-                "Name": name,
-                "Quote": quote,
-                "DoB": dd1,
-                "Likes": dd2,
-                "MBTI": dd3,
-                "Nationality": dd4
-            })
-        except requests.exceptions.RequestException as e:
-            print(f"Failed to fetch {URL}: {e}")
-            continue
+        
 
     else:
         print(f"Row has insufficient cells: {row}")
 
 with open('contestant.json', 'w', encoding='utf-8') as outfile: 
     json.dump(data, outfile, indent=4, ensure_ascii=False) 
-
-with open('biodata.json', 'w', encoding='utf-8') as outfile:
-    json.dump(data2, outfile, indent=4, ensure_ascii=False)

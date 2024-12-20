@@ -9,6 +9,7 @@
         "Ep. 5": 1,
         "Ep. 6": 2,
         "Ep. 8": 1,
+        "Ep. 11": 3,
         "Final": -1,
         "Image": "JeonMinwook.jpg"
     },
@@ -22,6 +23,7 @@
         "Ep. 5": 2,
         "Ep. 6": 1,
         "Ep. 8": 2,
+        "Ep. 11": 1,
         "Final": -1,
         "Image": "SakuradaKenshin.jpg"
     },
@@ -35,6 +37,7 @@
         "Ep. 5": 7,
         "Ep. 6": 3,
         "Ep. 8": 3,
+        "Ep. 11": 2,
         "Final": -1,
         "Image": "SeoKyoungbae.jpg"
     },
@@ -48,6 +51,7 @@
         "Ep. 5": 6,
         "Ep. 6": 4,
         "Ep. 8": 4,
+        "Ep. 11": 7,
         "Final": -1,
         "Image": "JangYeojun.jpg"
     },
@@ -61,6 +65,7 @@
         "Ep. 5": 14,
         "Ep. 6": 6,
         "Ep. 8": 5,
+        "Ep. 11": 6,
         "Final": -1,
         "Image": "SongSeungho.jpg"
     },
@@ -74,6 +79,7 @@
         "Ep. 5": 3,
         "Ep. 6": 5,
         "Ep. 8": 6,
+        "Ep. 11": 4,
         "Final": -1,
         "Image": "KimSungmin.jpg"
     },
@@ -87,6 +93,7 @@
         "Ep. 5": 5,
         "Ep. 6": 8,
         "Ep. 8": 7,
+        "Ep. 11": 5,
         "Final": -1,
         "Image": "MaJingxiang.jpg"
     },
@@ -100,6 +107,7 @@
         "Ep. 5": 12,
         "Ep. 6": 7,
         "Ep. 8": 8,
+        "Ep. 11": 9,
         "Final": -1,
         "Image": "NamJiwoon.jpg"
     },
@@ -113,6 +121,7 @@
         "Ep. 5": 4,
         "Ep. 6": 9,
         "Ep. 8": 9,
+        "Ep. 11": 8,
         "Final": -1,
         "Image": "KimSihun.jpg"
     },
@@ -126,6 +135,7 @@
         "Ep. 5": 15,
         "Ep. 6": 11,
         "Ep. 8": 10,
+        "Ep. 11": 11,
         "Final": -1,
         "Image": "AhnJunwon.jpg"
     },
@@ -139,6 +149,7 @@
         "Ep. 5": 9,
         "Ep. 6": 10,
         "Ep. 8": 11,
+        "Ep. 11": 12,
         "Final": -1,
         "Image": "BingHua.jpg"
     },
@@ -152,6 +163,7 @@
         "Ep. 5": 11,
         "Ep. 6": 14,
         "Ep. 8": 12,
+        "Ep. 11": 13,
         "Final": -1,
         "Image": "YiChen.jpg"
     },
@@ -165,6 +177,7 @@
         "Ep. 5": 16,
         "Ep. 6": 15,
         "Ep. 8": 13,
+        "Ep. 11": 21,
         "Final": -1,
         "Image": "KimHyunwoo.jpg"
     },
@@ -178,21 +191,9 @@
         "Ep. 5": 8,
         "Ep. 6": 13,
         "Ep. 8": 14,
+        "Ep. 11": 17,
         "Final": -1,
         "Image": "KangHyunwoo.jpg"
-    },
-    {
-        "Company": "PocketDol Studio (포켓돌스튜디오)",
-        "Name": "Kang Min-seo (강민서)",
-        "Age": 23,
-        "Master's \nEvaluation": "S",
-        "Ep. 2": 6,
-        "Ep. 3": 10,
-        "Ep. 5": 10,
-        "Ep. 6": 12,
-        "Ep. 8": 15,
-        "Final": -1,
-        "Image": "KangMinseo.jpg"
     },
     {
         "Company": "PocketDol Studio (포켓돌스튜디오)",
@@ -204,6 +205,7 @@
         "Ep. 5": 22,
         "Ep. 6": 17,
         "Ep. 8": 16,
+        "Ep. 11": 14,
         "Final": -1,
         "Image": "YooYoungseo.jpg"
     },
@@ -217,34 +219,9 @@
         "Ep. 5": 18,
         "Ep. 6": 16,
         "Ep. 8": 17,
+        "Ep. 11": 20,
         "Final": -1,
         "Image": "ParkJunseo.jpg"
-    },
-    {
-        "Company": "Mystic Story (미스틱스토리)",
-        "Name": "Andy (アンディ) / (앤디)",
-        "Age": 17,
-        "Master's \nEvaluation": "S",
-        "Ep. 2": 60,
-        "Ep. 3": 17,
-        "Ep. 5": 19,
-        "Ep. 6": 22,
-        "Ep. 8": 18,
-        "Final": -1,
-        "Image": "Andy.jpg"
-    },
-    {
-        "Company": "TNK Ent. (TNK 엔터테인먼트)",
-        "Name": "Abe Yura (阿部 由良) / (아베 유라)",
-        "Age": 19,
-        "Master's \nEvaluation": "B",
-        "Ep. 2": 34,
-        "Ep. 3": 22,
-        "Ep. 5": 21,
-        "Ep. 6": 18,
-        "Ep. 8": 19,
-        "Final": -1,
-        "Image": "AbeYura.jpg"
     },
     {
         "Company": "Individual Trainee (개인 연습생)",
@@ -256,190 +233,23 @@
         "Ep. 5": 24,
         "Ep. 6": 21,
         "Ep. 8": 20,
+        "Ep. 11": 10,
         "Final": -1,
         "Image": "WooHajoon.jpg"
     },
     {
-        "Company": "Hi-Hat Ent. (하이헷 주식회사)",
-        "Name": "Jung Se-yun (정세윤)",
-        "Age": 17,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 14,
-        "Ep. 3": 19,
-        "Ep. 5": 17,
-        "Ep. 6": 19,
-        "Ep. 8": 21,
-        "Final": -1,
-        "Image": "JungSeyun.jpg"
-    },
-    {
-        "Company": "TVB",
-        "Name": "Fong Atilla (方玉亨) / (팡아틸라)",
+        "Company": "Mystic Story (미스틱스토리)",
+        "Name": "Andy (アンディ) / (앤디)",
         "Age": 17,
         "Master's \nEvaluation": "S",
-        "Ep. 2": 37,
-        "Ep. 3": 12,
-        "Ep. 5": 13,
-        "Ep. 6": 20,
-        "Ep. 8": 22,
+        "Ep. 2": 60,
+        "Ep. 3": 17,
+        "Ep. 5": 19,
+        "Ep. 6": 22,
+        "Ep. 8": 18,
+        "Ep. 11": 15,
         "Final": -1,
-        "Image": "FongAtilla.jpg"
-    },
-    {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Kwon Yong-hyun (권용현)",
-        "Age": 27,
-        "Master's \nEvaluation": "B",
-        "Ep. 2": 13,
-        "Ep. 3": 18,
-        "Ep. 5": 20,
-        "Ep. 6": 23,
-        "Ep. 8": 23,
-        "Final": -1,
-        "Image": "KwonYonghyun.jpg"
-    },
-    {
-        "Company": "PocketDol Studio (포켓돌스튜디오)",
-        "Name": "Lee Han-bin (이한빈)",
-        "Age": 23,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 20,
-        "Ep. 3": 30,
-        "Ep. 5": 29,
-        "Ep. 6": 24,
-        "Ep. 8": 24,
-        "Final": -1,
-        "Image": "LeeHanbin.jpg"
-    },
-    {
-        "Company": "Hi-Hat Ent. (하이헷 주식회사)",
-        "Name": "Kim Jeong-min (김정민)",
-        "Age": 17,
-        "Master's \nEvaluation": "S",
-        "Ep. 2": 51,
-        "Ep. 3": 39,
-        "Ep. 5": 34,
-        "Ep. 6": 25,
-        "Ep. 8": 25,
-        "Final": -1,
-        "Image": "KimJeongmin.jpg"
-    },
-    {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Shin Jae-won (신재원)",
-        "Age": 20,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 31,
-        "Ep. 3": 25,
-        "Ep. 5": 25,
-        "Ep. 6": 26,
-        "Ep. 8": 26,
-        "Final": -1,
-        "Image": "ShinJaewon.jpg"
-    },
-    {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Oh Tae-hwan (오태환)",
-        "Age": 20,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 35,
-        "Ep. 3": 41,
-        "Ep. 5": 39,
-        "Ep. 6": 34,
-        "Ep. 8": 27,
-        "Final": -1,
-        "Image": "OhTaehwan.jpg"
-    },
-    {
-        "Company": "TNK Ent. (TNK 엔터테인먼트)",
-        "Name": "Asaka Kotaro (浅香 孝太郎) / (아사카 코타로)",
-        "Age": 21,
-        "Master's \nEvaluation": "C",
-        "Ep. 2": 29,
-        "Ep. 3": 35,
-        "Ep. 5": 36,
-        "Ep. 6": 35,
-        "Ep. 8": 28,
-        "Final": -1,
-        "Image": "AsakaKotaro.jpg"
-    },
-    {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Kim Joo-hyun (김주현)",
-        "Age": 18,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 17,
-        "Ep. 3": 24,
-        "Ep. 5": 26,
-        "Ep. 6": 30,
-        "Ep. 8": 29,
-        "Final": -1,
-        "Image": "KimJoohyun.jpg"
-    },
-    {
-        "Company": "HIVER LAB",
-        "Name": "Kim Joon-woo (김준우)",
-        "Age": 22,
-        "Master's \nEvaluation": "B",
-        "Ep. 2": 63,
-        "Ep. 3": 85,
-        "Ep. 5": 61,
-        "Ep. 6": 28,
-        "Ep. 8": 30,
-        "Final": -1,
-        "Image": "KimJoonwoo.jpg"
-    },
-    {
-        "Company": "COMMAND THE-M Ent.",
-        "Name": "Chae Hee-ju (채희주)",
-        "Age": 21,
-        "Master's \nEvaluation": "B",
-        "Ep. 2": 42,
-        "Ep. 3": 45,
-        "Ep. 5": 43,
-        "Ep. 6": 41,
-        "Ep. 8": 31,
-        "Final": -1,
-        "Image": "ChaeHeeju.jpg"
-    },
-    {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Lee Gun-woo (이건우)",
-        "Age": 20,
-        "Master's \nEvaluation": "B",
-        "Ep. 2": 43,
-        "Ep. 3": 60,
-        "Ep. 5": 47,
-        "Ep. 6": 32,
-        "Ep. 8": 32,
-        "Final": -1,
-        "Image": "LeeGunwoo.jpg"
-    },
-    {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Yu Ji-ahn (유지안)",
-        "Age": 32,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 28,
-        "Ep. 3": 34,
-        "Ep. 5": 35,
-        "Ep. 6": 38,
-        "Ep. 8": 33,
-        "Final": -1,
-        "Image": "YuJiahn.jpg"
-    },
-    {
-        "Company": "DNA Ent. (디엔에이엔터테인먼트)",
-        "Name": "Wu Chenyu (吴宸宇) / (우첸유)",
-        "Age": 22,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 68,
-        "Ep. 3": 75,
-        "Ep. 5": 51,
-        "Ep. 6": 44,
-        "Ep. 8": 34,
-        "Final": -1,
-        "Image": "WuChenyu.jpg"
+        "Image": "Andy.jpg"
     },
     {
         "Company": "Individual Trainee (개인 연습생)",
@@ -451,8 +261,233 @@
         "Ep. 5": 48,
         "Ep. 6": 46,
         "Ep. 8": 35,
+        "Ep. 11": 16,
         "Final": -1,
         "Image": "LynnLynn.jpg"
+    },
+    {
+        "Company": "Hi-Hat Ent. (하이헷 주식회사)",
+        "Name": "Kim Jeong-min (김정민)",
+        "Age": 17,
+        "Master's \nEvaluation": "S",
+        "Ep. 2": 51,
+        "Ep. 3": 39,
+        "Ep. 5": 34,
+        "Ep. 6": 25,
+        "Ep. 8": 25,
+        "Ep. 11": 18,
+        "Final": -1,
+        "Image": "KimJeongmin.jpg"
+    },
+    {
+        "Company": "Hi-Hat Ent. (하이헷 주식회사)",
+        "Name": "Jung Se-yun (정세윤)",
+        "Age": 17,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 14,
+        "Ep. 3": 19,
+        "Ep. 5": 17,
+        "Ep. 6": 19,
+        "Ep. 8": 21,
+        "Ep. 11": 19,
+        "Final": -1,
+        "Image": "JungSeyun.jpg"
+    },
+    {
+        "Company": "PocketDol Studio (포켓돌스튜디오)",
+        "Name": "Kang Min-seo (강민서)",
+        "Age": 23,
+        "Master's \nEvaluation": "S",
+        "Ep. 2": 6,
+        "Ep. 3": 10,
+        "Ep. 5": 10,
+        "Ep. 6": 12,
+        "Ep. 8": 15,
+        "Ep. 11": 22,
+        "Final": 22,
+        "Image": "KangMinseo.jpg"
+    },
+    {
+        "Company": "PocketDol Studio (포켓돌스튜디오)",
+        "Name": "Lee Han-bin (이한빈)",
+        "Age": 23,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 20,
+        "Ep. 3": 30,
+        "Ep. 5": 29,
+        "Ep. 6": 24,
+        "Ep. 8": 24,
+        "Ep. 11": 23,
+        "Final": 23,
+        "Image": "LeeHanbin.jpg"
+    },
+    {
+        "Company": "TVB",
+        "Name": "Fong Atilla (方玉亨) / (팡아틸라)",
+        "Age": 17,
+        "Master's \nEvaluation": "S",
+        "Ep. 2": 37,
+        "Ep. 3": 12,
+        "Ep. 5": 13,
+        "Ep. 6": 20,
+        "Ep. 8": 22,
+        "Ep. 11": 24,
+        "Final": 24,
+        "Image": "FongAtilla.jpg"
+    },
+    {
+        "Company": "Individual Trainee (개인 연습생)",
+        "Name": "Kim Joo-hyun (김주현)",
+        "Age": 18,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 17,
+        "Ep. 3": 24,
+        "Ep. 5": 26,
+        "Ep. 6": 30,
+        "Ep. 8": 29,
+        "Ep. 11": 25,
+        "Final": 25,
+        "Image": "KimJoohyun.jpg"
+    },
+    {
+        "Company": "TNK Ent. (TNK 엔터테인먼트)",
+        "Name": "Abe Yura (阿部 由良) / (아베 유라)",
+        "Age": 19,
+        "Master's \nEvaluation": "B",
+        "Ep. 2": 34,
+        "Ep. 3": 22,
+        "Ep. 5": 21,
+        "Ep. 6": 18,
+        "Ep. 8": 19,
+        "Ep. 11": 26,
+        "Final": 26,
+        "Image": "AbeYura.jpg"
+    },
+    {
+        "Company": "ON1 Ent. (온원 엔터테인먼트)",
+        "Name": "Lee Gun-woo (이건우)",
+        "Age": 20,
+        "Master's \nEvaluation": "B",
+        "Ep. 2": 43,
+        "Ep. 3": 60,
+        "Ep. 5": 47,
+        "Ep. 6": 32,
+        "Ep. 8": 32,
+        "Ep. 11": 27,
+        "Final": 27,
+        "Image": "LeeGunwoo.jpg"
+    },
+    {
+        "Company": "COMMAND THE-M Ent.",
+        "Name": "Chae Hee-ju (채희주)",
+        "Age": 21,
+        "Master's \nEvaluation": "B",
+        "Ep. 2": 42,
+        "Ep. 3": 45,
+        "Ep. 5": 43,
+        "Ep. 6": 41,
+        "Ep. 8": 31,
+        "Ep. 11": 28,
+        "Final": 28,
+        "Image": "ChaeHeeju.jpg"
+    },
+    {
+        "Company": "Individual Trainee (개인 연습생)",
+        "Name": "Kwon Yong-hyun (권용현)",
+        "Age": 28,
+        "Master's \nEvaluation": "B",
+        "Ep. 2": 13,
+        "Ep. 3": 18,
+        "Ep. 5": 20,
+        "Ep. 6": 23,
+        "Ep. 8": 23,
+        "Ep. 11": 29,
+        "Final": 29,
+        "Image": "KwonYonghyun.jpg"
+    },
+    {
+        "Company": "Individual Trainee (개인 연습생)",
+        "Name": "Oh Tae-hwan (오태환)",
+        "Age": 20,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 35,
+        "Ep. 3": 41,
+        "Ep. 5": 39,
+        "Ep. 6": 34,
+        "Ep. 8": 27,
+        "Ep. 11": 30,
+        "Final": 30,
+        "Image": "OhTaehwan.jpg"
+    },
+    {
+        "Company": "DNA Ent. (디엔에이엔터테인먼트)",
+        "Name": "Wu Chenyu (吴宸宇) / (우첸유)",
+        "Age": 23,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 68,
+        "Ep. 3": 75,
+        "Ep. 5": 51,
+        "Ep. 6": 44,
+        "Ep. 8": 34,
+        "Ep. 11": 31,
+        "Final": 31,
+        "Image": "WuChenyu.jpg"
+    },
+    {
+        "Company": "HIVER LAB",
+        "Name": "Kim Joon-woo (김준우)",
+        "Age": 22,
+        "Master's \nEvaluation": "B",
+        "Ep. 2": 63,
+        "Ep. 3": 85,
+        "Ep. 5": 61,
+        "Ep. 6": 28,
+        "Ep. 8": 30,
+        "Ep. 11": 32,
+        "Final": 32,
+        "Image": "KimJoonwoo.jpg"
+    },
+    {
+        "Company": "Individual Trainee (개인 연습생)",
+        "Name": "Yu Ji-ahn (유지안)",
+        "Age": 32,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 28,
+        "Ep. 3": 34,
+        "Ep. 5": 35,
+        "Ep. 6": 38,
+        "Ep. 8": 33,
+        "Ep. 11": 33,
+        "Final": 33,
+        "Image": "YuJiahn.jpg"
+    },
+    {
+        "Company": "Individual Trainee (개인 연습생)",
+        "Name": "Shin Jae-won (신재원)",
+        "Age": 20,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 31,
+        "Ep. 3": 25,
+        "Ep. 5": 25,
+        "Ep. 6": 26,
+        "Ep. 8": 26,
+        "Ep. 11": 34,
+        "Final": 34,
+        "Image": "ShinJaewon.jpg"
+    },
+    {
+        "Company": "TNK Ent. (TNK 엔터테인먼트)",
+        "Name": "Asaka Kotaro (浅香 孝太郎) / (아사카 코타로)",
+        "Age": 21,
+        "Master's \nEvaluation": "C",
+        "Ep. 2": 29,
+        "Ep. 3": 35,
+        "Ep. 5": 36,
+        "Ep. 6": 35,
+        "Ep. 8": 28,
+        "Ep. 11": 35,
+        "Final": 35,
+        "Image": "AsakaKotaro.jpg"
     },
     {
         "Company": "J-Star Ent. (제이스타 엔터테인먼트)",
@@ -464,6 +499,7 @@
         "Ep. 5": 53,
         "Ep. 6": 33,
         "Ep. 8": 36,
+        "Ep. 11": -1,
         "Final": 36,
         "Image": "KimTaeyu.jpg"
     },
@@ -477,6 +513,7 @@
         "Ep. 5": 23,
         "Ep. 6": 27,
         "Ep. 8": 37,
+        "Ep. 11": -1,
         "Final": 37,
         "Image": "FukuyamaSota.jpg"
     },
@@ -490,6 +527,7 @@
         "Ep. 5": 41,
         "Ep. 6": 29,
         "Ep. 8": 38,
+        "Ep. 11": -1,
         "Final": 38,
         "Image": "HaSeokhee.jpg"
     },
@@ -503,6 +541,7 @@
         "Ep. 5": 40,
         "Ep. 6": 37,
         "Ep. 8": 39,
+        "Ep. 11": -1,
         "Final": 39,
         "Image": "SeoJinwon.jpg"
     },
@@ -516,6 +555,7 @@
         "Ep. 5": 57,
         "Ep. 6": 54,
         "Ep. 8": 40,
+        "Ep. 11": -1,
         "Final": 40,
         "Image": "JungSeungwon.jpg"
     },
@@ -529,6 +569,7 @@
         "Ep. 5": 37,
         "Ep. 6": 42,
         "Ep. 8": 41,
+        "Ep. 11": -1,
         "Final": 41,
         "Image": "OhSeungchan.jpg"
     },
@@ -542,6 +583,7 @@
         "Ep. 5": 38,
         "Ep. 6": 51,
         "Ep. 8": 42,
+        "Ep. 11": -1,
         "Final": 42,
         "Image": "ParkJunwoo.jpg"
     },
@@ -555,6 +597,7 @@
         "Ep. 5": 66,
         "Ep. 6": 61,
         "Ep. 8": 43,
+        "Ep. 11": -1,
         "Final": 43,
         "Image": "LeeJihoon.jpg"
     },
@@ -568,6 +611,7 @@
         "Ep. 5": 27,
         "Ep. 6": 31,
         "Ep. 8": 44,
+        "Ep. 11": -1,
         "Final": 44,
         "Image": "KimHyunjae.jpg"
     },
@@ -581,6 +625,7 @@
         "Ep. 5": 49,
         "Ep. 6": 36,
         "Ep. 8": 45,
+        "Ep. 11": -1,
         "Final": 45,
         "Image": "YeomYechan.jpg"
     },
@@ -594,6 +639,7 @@
         "Ep. 5": 31,
         "Ep. 6": 43,
         "Ep. 8": 46,
+        "Ep. 11": -1,
         "Final": 46,
         "Image": "YooHeedo.jpg"
     },
@@ -607,6 +653,7 @@
         "Ep. 5": 70,
         "Ep. 6": 47,
         "Ep. 8": 47,
+        "Ep. 11": -1,
         "Final": 47,
         "Image": "KwonYeung.jpg"
     },
@@ -620,6 +667,7 @@
         "Ep. 5": 68,
         "Ep. 6": 45,
         "Ep. 8": 48,
+        "Ep. 11": -1,
         "Final": 48,
         "Image": "Aom.jpg"
     },
@@ -633,6 +681,7 @@
         "Ep. 5": 58,
         "Ep. 6": 60,
         "Ep. 8": 49,
+        "Ep. 11": -1,
         "Final": 49,
         "Image": "ChoHyojin.jpg"
     },
@@ -646,6 +695,7 @@
         "Ep. 5": 30,
         "Ep. 6": 40,
         "Ep. 8": 50,
+        "Ep. 11": -1,
         "Final": 50,
         "Image": "KimDohun.jpg"
     },
@@ -659,6 +709,7 @@
         "Ep. 5": 65,
         "Ep. 6": 57,
         "Ep. 8": 51,
+        "Ep. 11": -1,
         "Final": 51,
         "Image": "KangWangseok.jpg"
     },
@@ -672,6 +723,7 @@
         "Ep. 5": 32,
         "Ep. 6": 48,
         "Ep. 8": 52,
+        "Ep. 11": -1,
         "Final": 52,
         "Image": "KwonYangwoo.jpg"
     },
@@ -685,6 +737,7 @@
         "Ep. 5": 45,
         "Ep. 6": 55,
         "Ep. 8": 53,
+        "Ep. 11": -1,
         "Final": 53,
         "Image": "KimYounghoon.jpg"
     },
@@ -698,6 +751,7 @@
         "Ep. 5": 44,
         "Ep. 6": 58,
         "Ep. 8": 54,
+        "Ep. 11": -1,
         "Final": 54,
         "Image": "SongHyungseok.jpg"
     },
@@ -711,6 +765,7 @@
         "Ep. 5": 60,
         "Ep. 6": 53,
         "Ep. 8": 55,
+        "Ep. 11": -1,
         "Final": 55,
         "Image": "ImSiu.jpg"
     },
@@ -724,6 +779,7 @@
         "Ep. 5": 64,
         "Ep. 6": 56,
         "Ep. 8": 56,
+        "Ep. 11": -1,
         "Final": 56,
         "Image": "KimJimin.jpg"
     },
@@ -737,6 +793,7 @@
         "Ep. 5": 55,
         "Ep. 6": 70,
         "Ep. 8": 57,
+        "Ep. 11": -1,
         "Final": 57,
         "Image": "BaekJiho.jpg"
     },
@@ -750,6 +807,7 @@
         "Ep. 5": 52,
         "Ep. 6": 49,
         "Ep. 8": 58,
+        "Ep. 11": -1,
         "Final": 58,
         "Image": "ChoiJuyoung.jpg"
     },
@@ -763,6 +821,7 @@
         "Ep. 5": 28,
         "Ep. 6": 39,
         "Ep. 8": 59,
+        "Ep. 11": -1,
         "Final": 59,
         "Image": "Sviat.jpg"
     },
@@ -776,6 +835,7 @@
         "Ep. 5": 59,
         "Ep. 6": 65,
         "Ep. 8": 60,
+        "Ep. 11": -1,
         "Final": 60,
         "Image": "ObayashiYusei.jpg"
     },
@@ -789,6 +849,7 @@
         "Ep. 5": 42,
         "Ep. 6": 69,
         "Ep. 8": 61,
+        "Ep. 11": -1,
         "Final": 61,
         "Image": "OkChanghyeon.jpg"
     },
@@ -802,6 +863,7 @@
         "Ep. 5": 69,
         "Ep. 6": 50,
         "Ep. 8": 62,
+        "Ep. 11": -1,
         "Final": 62,
         "Image": "HouGuanyi.jpg"
     },
@@ -815,6 +877,7 @@
         "Ep. 5": 46,
         "Ep. 6": 68,
         "Ep. 8": 63,
+        "Ep. 11": -1,
         "Final": 63,
         "Image": "Petch.jpg"
     },
@@ -828,6 +891,7 @@
         "Ep. 5": 63,
         "Ep. 6": 62,
         "Ep. 8": 64,
+        "Ep. 11": -1,
         "Final": 64,
         "Image": "LeeEunsuh.jpg"
     },
@@ -841,6 +905,7 @@
         "Ep. 5": 56,
         "Ep. 6": 63,
         "Ep. 8": 65,
+        "Ep. 11": -1,
         "Final": 65,
         "Image": "KangJimin.jpg"
     },
@@ -854,6 +919,7 @@
         "Ep. 5": 33,
         "Ep. 6": 52,
         "Ep. 8": 66,
+        "Ep. 11": -1,
         "Final": 66,
         "Image": "Santa.jpg"
     },
@@ -867,6 +933,7 @@
         "Ep. 5": 50,
         "Ep. 6": 66,
         "Ep. 8": 67,
+        "Ep. 11": -1,
         "Final": 67,
         "Image": "AyalonAdam.jpg"
     },
@@ -880,6 +947,7 @@
         "Ep. 5": 62,
         "Ep. 6": 59,
         "Ep. 8": 68,
+        "Ep. 11": -1,
         "Final": 68,
         "Image": "JeongDeunhaesol.jpg"
     },
@@ -893,6 +961,7 @@
         "Ep. 5": 67,
         "Ep. 6": 67,
         "Ep. 8": 69,
+        "Ep. 11": -1,
         "Final": 69,
         "Image": "ParkChanyong.jpg"
     },
@@ -906,6 +975,7 @@
         "Ep. 5": 54,
         "Ep. 6": 64,
         "Ep. 8": 70,
+        "Ep. 11": -1,
         "Final": 70,
         "Image": "OhYoungwoong.jpg"
     },
@@ -919,6 +989,7 @@
         "Ep. 5": 71,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 71,
         "Image": "LeeYujun.jpg"
     },
@@ -932,6 +1003,7 @@
         "Ep. 5": 72,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 72,
         "Image": "YooHyeonseung.jpg"
     },
@@ -945,6 +1017,7 @@
         "Ep. 5": 73,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 73,
         "Image": "YangJuho.jpg"
     },
@@ -958,6 +1031,7 @@
         "Ep. 5": 74,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 74,
         "Image": "LinWeichen.jpg"
     },
@@ -971,6 +1045,7 @@
         "Ep. 5": 75,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 75,
         "Image": "ZhangJinglong.jpg"
     },
@@ -984,6 +1059,7 @@
         "Ep. 5": 76,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 76,
         "Image": "KimEunho.jpg"
     },
@@ -997,6 +1073,7 @@
         "Ep. 5": 77,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 77,
         "Image": "KimDanu.jpg"
     },
@@ -1010,6 +1087,7 @@
         "Ep. 5": 78,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 78,
         "Image": "KimTaesung.jpg"
     },
@@ -1023,6 +1101,7 @@
         "Ep. 5": 79,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 79,
         "Image": "KimMinjun.jpg"
     },
@@ -1036,6 +1115,7 @@
         "Ep. 5": 80,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 80,
         "Image": "KangHeemin.jpg"
     },
@@ -1049,6 +1129,7 @@
         "Ep. 5": 81,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 81,
         "Image": "KimSungjun.jpg"
     },
@@ -1062,6 +1143,7 @@
         "Ep. 5": 82,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 82,
         "Image": "KoMinsung.jpg"
     },
@@ -1075,6 +1157,7 @@
         "Ep. 5": 83,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 83,
         "Image": "KimYoonsue.jpg"
     },
@@ -1088,6 +1171,7 @@
         "Ep. 5": 84,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 84,
         "Image": "KimSiyul.jpg"
     },
@@ -1101,6 +1185,7 @@
         "Ep. 5": 85,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 85,
         "Image": "TsujiiRyoma.jpg"
     },
@@ -1114,6 +1199,7 @@
         "Ep. 5": 86,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 86,
         "Image": "LeeNoyul.jpg"
     },
@@ -1127,6 +1213,7 @@
         "Ep. 5": 87,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 87,
         "Image": "JangHyeonseok.jpg"
     },
@@ -1140,6 +1227,7 @@
         "Ep. 5": 88,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 88,
         "Image": "ManabeJin.jpg"
     },
@@ -1153,6 +1241,7 @@
         "Ep. 5": 89,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 89,
         "Image": "LeeJuchan.jpg"
     },
@@ -1166,6 +1255,7 @@
         "Ep. 5": 90,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 90,
         "Image": "ChoiByunghoon.jpg"
     },
@@ -1179,6 +1269,7 @@
         "Ep. 5": 91,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 91,
         "Image": "YoonJuhan.jpg"
     },
@@ -1192,6 +1283,7 @@
         "Ep. 5": 92,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 92,
         "Image": "JangInjae.jpg"
     },
@@ -1205,6 +1297,7 @@
         "Ep. 5": 93,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 93,
         "Image": "KimJeongyun.jpg"
     },
@@ -1218,6 +1311,7 @@
         "Ep. 5": 94,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 94,
         "Image": "YamaguchiSatoshi.jpg"
     },
@@ -1231,6 +1325,7 @@
         "Ep. 5": 95,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 95,
         "Image": "KimJihwan.jpg"
     },
@@ -1244,6 +1339,7 @@
         "Ep. 5": 96,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 96,
         "Image": "LeeDokyeong.jpg"
     },
@@ -1257,6 +1353,7 @@
         "Ep. 5": 97,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 97,
         "Image": "LimHyunwoo.jpg"
     },
@@ -1270,6 +1367,7 @@
         "Ep. 5": 98,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 98,
         "Image": "LeeHyobin.jpg"
     },
@@ -1283,6 +1381,7 @@
         "Ep. 5": -1,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 99,
         "Image": "LeeJunseon.jpg"
     },
@@ -1296,6 +1395,7 @@
         "Ep. 5": -1,
         "Ep. 6": -1,
         "Ep. 8": -1,
+        "Ep. 11": -1,
         "Final": 100,
         "Image": "JungJohan.jpg"
     }

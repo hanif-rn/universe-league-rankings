@@ -11,6 +11,9 @@ export default {
       fontSize: {
         xxs: "0.625rem", // 10px
       },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+      },
     },
   },
   plugins: [daisyui],

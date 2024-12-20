@@ -1,3 +1,4 @@
+import Bio from "./Bio";
 const ContestantCard = ({ contestant, onClick }) => {
   const getStrokeColor = (evaluation) => {
     switch (evaluation) {
@@ -17,8 +18,8 @@ const ContestantCard = ({ contestant, onClick }) => {
   };
 
   const getRankChangeIndicator = (contestant) => {
-    const recentRank = contestant["Ep. 8"]; // CHANGE THIS LATERRRRR
-    const previousRank = contestant["Ep. 6"];
+    const recentRank = contestant["Ep. 11"]; // CHANGE THIS LATERRRRR
+    const previousRank = contestant["Ep. 8"];
 
     if (recentRank === -1 || previousRank === -1) {
       return null;
@@ -39,7 +40,7 @@ const ContestantCard = ({ contestant, onClick }) => {
   return (
     <div
       className="contestant-card relative group card p-4 border rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 ease-in-out bg-white"
-      style={{ width: "250px", height: "100%" }}
+      style={{ width: "269px", height: "100%" }}
     >
       <div className="flex items-center justify-center flex-col mb-4">
         <img
@@ -55,6 +56,7 @@ const ContestantCard = ({ contestant, onClick }) => {
           {contestant.Company.replace(/-/g, "")}
         </h4>
       </div>
+      <Bio name={contestant.Name} imgurl={`/images/${contestant.Image}`} />
 
       <div className="absolute top-4 left-3 right-3 flex justify-between items-center">
         {rankChange && (

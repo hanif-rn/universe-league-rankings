@@ -14,7 +14,7 @@ import { FaGripHorizontal } from "react-icons/fa";
 
 const RankingChart = ({ contestants, highlighted }) => {
   const convertData = (contestants) => {
-    const episodes = ["Ep. 2", "Ep. 3", "Ep. 5", "Ep. 6", "Ep. 8"];
+    const episodes = ["Ep. 2", "Ep. 3", "Ep. 5", "Ep. 6", "Ep. 8", "Ep. 11"];
     return episodes
       .map((episode) => {
         const dataPoint = { name: episode };
@@ -171,7 +171,7 @@ const RankingChart = ({ contestants, highlighted }) => {
             ref={nodeRef} // Attach the ref to the element
             className="fixed bottom-7 left-7 p-4 z-50 ease-in-out"
             style={{
-              width: "280px",
+              width: "300px",
               backgroundColor: "rgba(255, 255, 255, 0.8)",
               boxShadow: "0 4px 10px rgba(0, 0, 0, 0.2)",
               borderRadius: "16px",

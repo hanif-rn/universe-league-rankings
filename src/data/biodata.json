@@ -112,6 +112,14 @@
         "Nationality": "대한민국"
     },
     {
+        "Name": "Kang Min-seo (강민서)",
+        "Quote": "자세히 알아보시면 재밌으실 거예요!",
+        "DoB": "2001. 07. 22",
+        "Likes": "검도",
+        "MBTI": "ENTP",
+        "Nationality": "대한민국"
+    },
+    {
         "Name": "Yoo Young-seo (유영서)",
         "Quote": "나 믿고 응원해 준 거 후회로 안 남게 다 보여주고 올게 항상 고마워",
         "DoB": "2002. 06. 13",
@@ -128,14 +136,6 @@
         "Nationality": "대한민국"
     },
     {
-        "Name": "Woo Ha-joon (우하준)",
-        "Quote": "지금 입덕 하셔야 됩니다 ! 지금이 최적의 타이밍 입니다 ! 많이 좋아해 주세요 감사합니다 ☺️❤️",
-        "DoB": "2002. 08. 15",
-        "Likes": "향기 구별하기",
-        "MBTI": "ISFP",
-        "Nationality": "대한민국"
-    },
-    {
         "Name": "Andy (アンディ) / (앤디)",
         "Quote": "저만의 월드 어셈블러가 된 것에 후회 없도록 하겠습니다. 많은 응원おねがいします! Thank you!",
         "DoB": "2007. 04. 19",
@@ -144,19 +144,19 @@
         "Nationality": "미국/일본"
     },
     {
-        "Name": "Lynn Lynn (林林) / (린린)",
-        "Quote": "응원해 주셔서 감사하고 성장하는 모습 보여드릴 수 있도록 열심히 노력하겠습니다.",
-        "DoB": "2003. 11. 03",
-        "Likes": "비보잉",
-        "MBTI": "ISTJ",
-        "Nationality": "중국"
+        "Name": "Abe Yura (阿部 由良) / (아베 유라)",
+        "Quote": "일본에서 온 지 1년 10개월 차 너구리 배유라를 키워주실 분~",
+        "DoB": "2005. 06. 16",
+        "Likes": "피아노, 서예",
+        "MBTI": "ISFP",
+        "Nationality": "일본"
     },
     {
-        "Name": "Kim Jeong-min (김정민)",
-        "Quote": "안녕하세요! 월드 어셈블러 여러분!!\r\n저의 밝은 에너지가 월드 어셈블러 \r\n여러분들께 전달되도록 노력하겠습니다!!\r\n저를 끝까지 지켜봐 주세요!\r\n감사합니다🫶🏻",
-        "DoB": "2007. 05. 04",
-        "Likes": "작사/작곡",
-        "MBTI": "ENFJ",
+        "Name": "Woo Ha-joon (우하준)",
+        "Quote": "지금 입덕 하셔야 됩니다 ! 지금이 최적의 타이밍 입니다 ! 많이 좋아해 주세요 감사합니다 ☺️❤️",
+        "DoB": "2002. 08. 15",
+        "Likes": "향기 구별하기",
+        "MBTI": "ISFP",
         "Nationality": "대한민국"
     },
     {
@@ -168,11 +168,19 @@
         "Nationality": "대한민국"
     },
     {
-        "Name": "Kang Min-seo (강민서)",
-        "Quote": "자세히 알아보시면 재밌으실 거예요!",
-        "DoB": "2001. 07. 22",
-        "Likes": "검도",
+        "Name": "Fong Atilla (方玉亨) / (팡아틸라)",
+        "Quote": "\"Guys!!!! I’m here!!!!” - I would want to say this to world assemblers because I know a lot of world assemblers have been waiting for my return and wondering what the next chapter of my life will be, so I would want to tell you that I’m back!",
+        "DoB": "2007. 11. 02",
+        "Likes": "발레",
         "MBTI": "ENTP",
+        "Nationality": "중국/호주"
+    },
+    {
+        "Name": "Kwon Yong-hyun (권용현)",
+        "Quote": "우리 함께 해요! 우린 혼자가 아니니까",
+        "DoB": "1996. 12. 18",
+        "Likes": "작사/작곡",
+        "MBTI": "INTJ",
         "Nationality": "대한민국"
     },
     {
@@ -184,83 +192,11 @@
         "Nationality": "대한민국"
     },
     {
-        "Name": "Fong Atilla (方玉亨) / (팡아틸라)",
-        "Quote": "\"Guys!!!! I’m here!!!!” - I would want to say this to world assemblers because I know a lot of world assemblers have been waiting for my return and wondering what the next chapter of my life will be, so I would want to tell you that I’m back!",
-        "DoB": "2007. 11. 02",
-        "Likes": "발레",
-        "MBTI": "ENTP",
-        "Nationality": "중국/호주"
-    },
-    {
-        "Name": "Kim Joo-hyun (김주현)",
-        "Quote": "안녕하세요! 저에게도 팬이 있다니.. 저 응원해 주시는 만큼 월드 어셈블러에게 더 크게 보답해 드리겠습니다 정말 열심히 하겠습니다 항상 같은 마음으로 지켜봐 주세요! 사랑합니다...!!",
-        "DoB": "2006. 03. 10",
-        "Likes": "인형 뽑기",
-        "MBTI": "ISTP",
-        "Nationality": "대한민국"
-    },
-    {
-        "Name": "Abe Yura (阿部 由良) / (아베 유라)",
-        "Quote": "일본에서 온 지 1년 10개월 차 너구리 배유라를 키워주실 분~",
-        "DoB": "2005. 06. 16",
-        "Likes": "피아노, 서예",
-        "MBTI": "ISFP",
-        "Nationality": "일본"
-    },
-    {
-        "Name": "Lee Gun-woo (이건우)",
-        "Quote": "지켜봐 주세요.",
-        "DoB": "2004. 11. 09",
-        "Likes": "랩, 용접",
-        "MBTI": "ISTJ",
-        "Nationality": "대한민국"
-    },
-    {
-        "Name": "Chae Hee-ju (채희주)",
-        "Quote": "키워줄 집사 구합니다.",
-        "DoB": "2003. 04. 04",
-        "Likes": "입 트럼펫",
-        "MBTI": "ENFP",
-        "Nationality": "대한민국"
-    },
-    {
-        "Name": "Kwon Yong-hyun (권용현)",
-        "Quote": "우리 함께 해요! 우린 혼자가 아니니까",
-        "DoB": "1996. 12. 18",
+        "Name": "Kim Jeong-min (김정민)",
+        "Quote": "안녕하세요! 월드 어셈블러 여러분!!\r\n저의 밝은 에너지가 월드 어셈블러 \r\n여러분들께 전달되도록 노력하겠습니다!!\r\n저를 끝까지 지켜봐 주세요!\r\n감사합니다🫶🏻",
+        "DoB": "2007. 05. 04",
         "Likes": "작사/작곡",
-        "MBTI": "INTJ",
-        "Nationality": "대한민국"
-    },
-    {
-        "Name": "Oh Tae-hwan (오태환)",
-        "Quote": "저의 팬이 생긴다면 나를 마음에 담아주셨다는 것에 감사하다고 말씀드리고 싶습니다",
-        "DoB": "2004. 06. 06",
-        "Likes": "그림 그리기",
-        "MBTI": "ENFP",
-        "Nationality": "대한민국"
-    },
-    {
-        "Name": "Wu Chenyu (吴宸宇) / (우첸유)",
-        "Quote": "저의 목소리가 어둠 속에서 여러분들의 삶의 방향을 밝혀주는 한줄기 빛이 될 수 있도록\r\n최선을 다하겠습니다!",
-        "DoB": "2001. 12. 18",
-        "Likes": "탁구",
-        "MBTI": "INTP",
-        "Nationality": "타이베이"
-    },
-    {
-        "Name": "Kim Joon-woo (김준우)",
-        "Quote": "너무 많이 부족하지만 누구보다 발전한 모습을 보여드릴 수 있습니다! 노력하겠습니다. 열심히 하겠습니다는 당연한 것 같습니다! 보여드리겠다는 확신을 가지고 누구보다 열심히 하겠습니다! 예쁘게 봐주세요!! 🫶🏻",
-        "DoB": "2002. 02. 07",
-        "Likes": "태권도",
-        "MBTI": "ENTP",
-        "Nationality": "대한민국"
-    },
-    {
-        "Name": "Yu Ji-ahn (유지안)",
-        "Quote": "준비됐어? 난 준비됐어~ 가보쟈!! 꽉 잡아~!",
-        "DoB": "1992. 04. 01",
-        "Likes": "탑라인 작곡",
-        "MBTI": "ENTP",
+        "MBTI": "ENFJ",
         "Nationality": "대한민국"
     },
     {
@@ -272,12 +208,76 @@
         "Nationality": "대한민국"
     },
     {
+        "Name": "Oh Tae-hwan (오태환)",
+        "Quote": "저의 팬이 생긴다면 나를 마음에 담아주셨다는 것에 감사하다고 말씀드리고 싶습니다",
+        "DoB": "2004. 06. 06",
+        "Likes": "그림 그리기",
+        "MBTI": "ENFP",
+        "Nationality": "대한민국"
+    },
+    {
         "Name": "Asaka Kotaro (浅香 孝太郎) / (아사카 코타로)",
         "Quote": "저를 찾아 주셔서 감사합니다!",
         "DoB": "2003. 04. 03",
         "Likes": "발레",
         "MBTI": "INFJ",
         "Nationality": "일본"
+    },
+    {
+        "Name": "Kim Joo-hyun (김주현)",
+        "Quote": "안녕하세요! 저에게도 팬이 있다니.. 저 응원해 주시는 만큼 월드 어셈블러에게 더 크게 보답해 드리겠습니다 정말 열심히 하겠습니다 항상 같은 마음으로 지켜봐 주세요! 사랑합니다...!!",
+        "DoB": "2006. 03. 10",
+        "Likes": "인형 뽑기",
+        "MBTI": "ISTP",
+        "Nationality": "대한민국"
+    },
+    {
+        "Name": "Kim Joon-woo (김준우)",
+        "Quote": "너무 많이 부족하지만 누구보다 발전한 모습을 보여드릴 수 있습니다! 노력하겠습니다. 열심히 하겠습니다는 당연한 것 같습니다! 보여드리겠다는 확신을 가지고 누구보다 열심히 하겠습니다! 예쁘게 봐주세요!! 🫶🏻",
+        "DoB": "2002. 02. 07",
+        "Likes": "태권도",
+        "MBTI": "ENTP",
+        "Nationality": "대한민국"
+    },
+    {
+        "Name": "Chae Hee-ju (채희주)",
+        "Quote": "키워줄 집사 구합니다.",
+        "DoB": "2003. 04. 04",
+        "Likes": "입 트럼펫",
+        "MBTI": "ENFP",
+        "Nationality": "대한민국"
+    },
+    {
+        "Name": "Lee Gun-woo (이건우)",
+        "Quote": "지켜봐 주세요.",
+        "DoB": "2004. 11. 09",
+        "Likes": "랩, 용접",
+        "MBTI": "ISTJ",
+        "Nationality": "대한민국"
+    },
+    {
+        "Name": "Yu Ji-ahn (유지안)",
+        "Quote": "준비됐어? 난 준비됐어~ 가보쟈!! 꽉 잡아~!",
+        "DoB": "1992. 04. 01",
+        "Likes": "탑라인 작곡",
+        "MBTI": "ENTP",
+        "Nationality": "대한민국"
+    },
+    {
+        "Name": "Wu Chenyu (吴宸宇) / (우첸유)",
+        "Quote": "저의 목소리가 어둠 속에서 여러분들의 삶의 방향을 밝혀주는 한줄기 빛이 될 수 있도록\r\n최선을 다하겠습니다!",
+        "DoB": "2001. 12. 18",
+        "Likes": "탁구",
+        "MBTI": "INTP",
+        "Nationality": "타이베이"
+    },
+    {
+        "Name": "Lynn Lynn (林林) / (린린)",
+        "Quote": "응원해 주셔서 감사하고 성장하는 모습 보여드릴 수 있도록 열심히 노력하겠습니다.",
+        "DoB": "2003. 11. 03",
+        "Likes": "비보잉",
+        "MBTI": "ISTJ",
+        "Nationality": "중국"
     },
     {
         "Name": "Kim Tae-yu (김태유)",
