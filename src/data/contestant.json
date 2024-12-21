@@ -1,18 +1,5 @@
 [
-    {
-        "Company": "PocketDol Studio (포켓돌스튜디오)",
-        "Name": "Jeon Min-wook (전민욱)",
-        "Age": 25,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 1,
-        "Ep. 3": 1,
-        "Ep. 5": 1,
-        "Ep. 6": 2,
-        "Ep. 8": 1,
-        "Ep. 11": 3,
-        "Final": -1,
-        "Image": "JeonMinwook.jpg"
-    },
+    
     {
         "Company": "Individual Trainee (개인 연습생)",
         "Name": "Sakurada Kenshin (桜田 健信) / (사쿠라다 켄신)",
@@ -27,6 +14,7 @@
         "Final": -1,
         "Image": "SakuradaKenshin.jpg"
     },
+    
     {
         "Company": "Individual Trainee (개인 연습생)",
         "Name": "Seo Kyoung-bae (서경배)",
@@ -42,32 +30,18 @@
         "Image": "SeoKyoungbae.jpg"
     },
     {
-        "Company": "Mystic Story (미스틱스토리)",
-        "Name": "Jang Yeo-jun (장여준)",
-        "Age": 19,
+        "Company": "PocketDol Studio (포켓돌스튜디오)",
+        "Name": "Jeon Min-wook (전민욱)",
+        "Age": 25,
         "Master's \nEvaluation": "A",
-        "Ep. 2": 15,
-        "Ep. 3": 6,
-        "Ep. 5": 6,
-        "Ep. 6": 4,
-        "Ep. 8": 4,
-        "Ep. 11": 7,
+        "Ep. 2": 1,
+        "Ep. 3": 1,
+        "Ep. 5": 1,
+        "Ep. 6": 2,
+        "Ep. 8": 1,
+        "Ep. 11": 3,
         "Final": -1,
-        "Image": "JangYeojun.jpg"
-    },
-    {
-        "Company": "Hi-Hat Ent. (하이헷 주식회사)",
-        "Name": "Song Seung-ho (송승호)",
-        "Age": 17,
-        "Master's \nEvaluation": "A",
-        "Ep. 2": 9,
-        "Ep. 3": 14,
-        "Ep. 5": 14,
-        "Ep. 6": 6,
-        "Ep. 8": 5,
-        "Ep. 11": 6,
-        "Final": -1,
-        "Image": "SongSeungho.jpg"
+        "Image": "JeonMinwook.jpg"
     },
     {
         "Company": "M Directors",
@@ -98,19 +72,34 @@
         "Image": "MaJingxiang.jpg"
     },
     {
-        "Company": "Individual Trainee (개인 연습생)",
-        "Name": "Nam Ji-woon (남지운)",
-        "Age": 22,
+        "Company": "Hi-Hat Ent. (하이헷 주식회사)",
+        "Name": "Song Seung-ho (송승호)",
+        "Age": 17,
         "Master's \nEvaluation": "A",
-        "Ep. 2": 11,
-        "Ep. 3": 13,
-        "Ep. 5": 12,
-        "Ep. 6": 7,
-        "Ep. 8": 8,
-        "Ep. 11": 9,
+        "Ep. 2": 9,
+        "Ep. 3": 14,
+        "Ep. 5": 14,
+        "Ep. 6": 6,
+        "Ep. 8": 5,
+        "Ep. 11": 6,
         "Final": -1,
-        "Image": "NamJiwoon.jpg"
+        "Image": "SongSeungho.jpg"
     },
+    {
+        "Company": "Mystic Story (미스틱스토리)",
+        "Name": "Jang Yeo-jun (장여준)",
+        "Age": 19,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 15,
+        "Ep. 3": 6,
+        "Ep. 5": 6,
+        "Ep. 6": 4,
+        "Ep. 8": 4,
+        "Ep. 11": 7,
+        "Final": -1,
+        "Image": "JangYeojun.jpg"
+    },
+    
     {
         "Company": "Individual Trainee (개인 연습생)",
         "Name": "Kim Si-hun (김시훈)",
@@ -125,6 +114,21 @@
         "Final": -1,
         "Image": "KimSihun.jpg"
     },
+    {
+        "Company": "Individual Trainee (개인 연습생)",
+        "Name": "Nam Ji-woon (남지운)",
+        "Age": 22,
+        "Master's \nEvaluation": "A",
+        "Ep. 2": 11,
+        "Ep. 3": 13,
+        "Ep. 5": 12,
+        "Ep. 6": 7,
+        "Ep. 8": 8,
+        "Ep. 11": 9,
+        "Final": -1,
+        "Image": "NamJiwoon.jpg"
+    },
+    
     {
         "Company": "Individual Trainee (개인 연습생)",
         "Name": "Ahn Jun-won (안준원)",
