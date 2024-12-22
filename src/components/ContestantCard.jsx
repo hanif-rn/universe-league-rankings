@@ -17,8 +17,8 @@ const ContestantCard = ({ contestant, onClick, highlighted }) => {
   };
 
   const getRankChangeIndicator = (contestant) => {
-    const recentRank = contestant["Ep. 11"]; // UPDATE LATER
-    const previousRank = contestant["Ep. 8"]; // UPDATE LATER
+    const recentRank = contestant["Ep. 5"]; // UPDATE LATER
+    const previousRank = contestant["Ep. 3"]; // UPDATE LATER
 
     if (recentRank === -1 || previousRank === -1) {
       return null; // Handle if the data is missing

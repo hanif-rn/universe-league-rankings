@@ -23,7 +23,7 @@ const App = () => {
   );
 
   return (
-    <div className="min-h-screen bg-blue-400 p-5" data-theme="lemonade">
+    <div className="min-h-screen bg-black p-5" data-theme="lemonade">
       <Header />
 
       <div

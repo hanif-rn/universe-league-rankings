@@ -11,7 +11,7 @@ const Header = () => {
 
   const imageStyle = {
     maxWidth: windowWidth < 600 ? "50%" : windowWidth < 1000 ? "45%" : "33%",
-    height: "auto",
+    height: windowWidth < 600 ? "10vh" : windowWidth < 1000 ? "12vh" : "15vh",
   };
 
   const headerStyle = {
@@ -27,9 +27,10 @@ const Header = () => {
   return (
     <header style={headerStyle}>
       <img
-        src="/images/project7logo.png"
+        src="/images/ullogo.jpg"
         alt="Header Image"
         style={imageStyle}
+        className="pb-2"
       />
     </header>
   );

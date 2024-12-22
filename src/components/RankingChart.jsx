@@ -14,7 +14,7 @@ import { FaGripHorizontal } from "react-icons/fa";
 
 const RankingChart = ({ contestants, highlighted }) => {
   const convertData = (contestants) => {
-    const episodes = ["Ep. 2", "Ep. 3", "Ep. 5", "Ep. 6", "Ep. 8", "Ep. 11"];
+    const episodes = ["Ep. 3", "Ep. 5"];
     return episodes
       .map((episode) => {
         const dataPoint = { name: episode };
@@ -111,8 +111,9 @@ const RankingChart = ({ contestants, highlighted }) => {
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
         <YAxis
+          domain={(1, 42)}
           reversed={true}
-          ticks={[1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100]}
+          ticks={[1, 10, 20, 30, 40, 42]}
         />
         <Tooltip content={<CustomTooltip />} />
 

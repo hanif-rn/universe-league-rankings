@@ -111,7 +111,7 @@ def get_image_url(s):
 
 
 
-URL = 'https://en.wikipedia.org/wiki/Project_7'
+URL = 'https://en.wikipedia.org/wiki/Universe_League'
 req = requests.get(URL)
 soup = bs4.BeautifulSoup(req.text, 'html.parser')
 table = soup.find_all('table')[2]
@@ -120,42 +120,22 @@ table_data = table_to_2d(table)
 data=[]
 data2=[]
 
-for row in table_data[3:]:
+for row in table_data[2:]:
     if len(row) >= 1:
         company = remove_references(row[0])
         name = remove_references(row[1])
         age = string_to_int(take_current_age(remove_references(row[2])))
-        eval = remove_references(row[3]) 
-        ep2 = string_to_int(remove_references(row[4]))
         ep3 = string_to_int(remove_references(row[5]))
-        ep5 = string_to_int(remove_references(row[6]))
-        ep6 = string_to_int(remove_references(row[7]))
-            
-        ep8 = string_to_int(remove_references(row[8]))
-        ep11 = string_to_int(remove_references(row[9]))
-        final = string_to_int(remove_references(row[10]))
+        ep5 = string_to_int(remove_references(row[8]))
         img = get_image_url(name) + ".jpg"
-        if ep5 > 70:
-            ep6 = -1
-            ep8 = -1
-            ep11= -1
-
-        if ep8 > 35:
-            ep11= -1
-
+        
 
         data.append({
                 "Company": company,
                 "Name": name,
                 "Age": age,
-                "Master's \nEvaluation": eval,
-                "Ep. 2": ep2,
                 "Ep. 3": ep3,
                 "Ep. 5": ep5,
-                "Ep. 6": ep6,
-                "Ep. 8": ep8,
-                "Ep. 11": ep11,
-                "Final": final,
                 "Image": img
             })
         
@@ -165,3 +145,21 @@ for row in table_data[3:]:
 
 with open('contestant.json', 'w', encoding='utf-8') as outfile: 
     json.dump(data, outfile, indent=4, ensure_ascii=False) 
+
+# Step 1: Sort contestants.json by alphabetical order of "Name"
+with open('contestant.json', 'r', encoding='utf-8') as infile:
+    contestants = json.load(infile)
+
+# Sorting the list of dictionaries by the "Name" key
+contestants = sorted(contestants, key=lambda x: x["Name"])
+
+# Step 2: Add "Bio URL" based on the index
+base_url = "https://programs.sbs.co.kr/enter/universeleague/profile/84054/"
+for index, contestant in enumerate(contestants):
+    contestant["Bio URL"] = f"{base_url}{30880 + index}"
+
+# Save the updated contestants.json
+with open('contestant.json', 'w', encoding='utf-8') as outfile:
+    json.dump(contestants, outfile, indent=4, ensure_ascii=False)
+
+contestants = sorted(contestants, key=lambda x: x["Ep. 5"])
