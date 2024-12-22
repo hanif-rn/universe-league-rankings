@@ -56,18 +56,16 @@ const RankingChart = ({ contestants, highlighted }) => {
 
   const getStrokeColor = (evaluation) => {
     switch (evaluation) {
-      case "S":
-        return "#9C27B0"; // Purple for S
-      case "A":
-        return "#FF6022"; // Orange for A
-      case "B":
-        return "#FFB300"; // Yellow for B
-      case "C":
-        return "#4CAF50"; // Green for C
-      case "D":
-        return "#9E9E9E"; // Grey for D
+      case "Eliminated":
+        return "#5D7798"; // Darker background for Eliminated team
+      case "Rhythm":
+        return "#E53030"; // Darker red background for Rhythm team
+      case "Groove":
+        return "#2FA55A"; // Darker green background for Groove team
+      case "Beat":
+        return "#2B6CE0"; // Darker blue background for Beat team
       default:
-        return "#8884d8";
+        return "#4A5568"; // Default darker background if no team matches
     }
   };
 
@@ -122,7 +120,7 @@ const RankingChart = ({ contestants, highlighted }) => {
               .filter((contestant) => contestant.Name === highlighted)
               .map((contestant) => {
                 const contestantName = contestant.Name.split("\n")[0];
-                const evaluation = contestant["Master's \nEvaluation"];
+                const evaluation = contestant["Team"];
                 const strokeColor = getStrokeColor(evaluation);
 
                 return (
@@ -146,7 +144,7 @@ const RankingChart = ({ contestants, highlighted }) => {
               })
           : contestants.map((contestant) => {
               const contestantName = contestant.Name.split("\n")[0];
-              const evaluation = contestant["Master's \nEvaluation"];
+              const evaluation = contestant["Team"];
               const strokeColor = getStrokeColor(evaluation);
 
               return (

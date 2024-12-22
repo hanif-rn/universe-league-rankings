@@ -127,6 +127,7 @@ for row in table_data[2:]:
         age = string_to_int(take_current_age(remove_references(row[2])))
         ep3 = string_to_int(remove_references(row[5]))
         ep5 = string_to_int(remove_references(row[8]))
+        team = remove_references(row[7])
         img = get_image_url(name) + ".jpg"
         
 
@@ -136,6 +137,7 @@ for row in table_data[2:]:
                 "Age": age,
                 "Ep. 3": ep3,
                 "Ep. 5": ep5,
+                "Team": team,
                 "Image": img
             })
         
@@ -157,9 +159,10 @@ contestants = sorted(contestants, key=lambda x: x["Name"])
 base_url = "https://programs.sbs.co.kr/enter/universeleague/profile/84054/"
 for index, contestant in enumerate(contestants):
     contestant["Bio URL"] = f"{base_url}{30880 + index}"
+    
+contestants = sorted(contestants, key=lambda x: x["Ep. 5"])
 
 # Save the updated contestants.json
 with open('contestant.json', 'w', encoding='utf-8') as outfile:
     json.dump(contestants, outfile, indent=4, ensure_ascii=False)
 
-contestants = sorted(contestants, key=lambda x: x["Ep. 5"])
