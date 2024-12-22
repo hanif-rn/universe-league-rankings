@@ -1,0 +1,380 @@
+[
+    {
+        "Company": "No.1 Ent.",
+        "Name": "An Yul (안율)",
+        "Age": 14,
+        "Ep. 3": 13,
+        "Ep. 5": 32,
+        "Image": "AnYul.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30880"
+    },
+    {
+        "Company": "Bill Ent. (빌엔터테인먼트)",
+        "Name": "Ayumu (아유무)",
+        "Age": 20,
+        "Ep. 3": 24,
+        "Ep. 5": 22,
+        "Image": "Ayumu.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30881"
+    },
+    {
+        "Company": "Woollim Ent. (울림엔터테인먼트)",
+        "Name": "Bae Jaeho (배재호)",
+        "Age": 16,
+        "Ep. 3": 15,
+        "Ep. 5": 28,
+        "Image": "BaeJaeho.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30882"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Cha Woongki (차웅기)",
+        "Age": 22,
+        "Ep. 3": 4,
+        "Ep. 5": 1,
+        "Image": "ChaWoongki.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30883"
+    },
+    {
+        "Company": "Bill Ent. (빌엔터테인먼트)",
+        "Name": "Chih En (简志恩 / 즈언)",
+        "Age": 17,
+        "Ep. 3": 11,
+        "Ep. 5": 5,
+        "Image": "ChihEn.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30884"
+    },
+    {
+        "Company": "CAT'S EYE Okinawa",
+        "Name": "Daisuke (다이스케)",
+        "Age": 15,
+        "Ep. 3": 22,
+        "Ep. 5": 11,
+        "Image": "Daisuke.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30885"
+    },
+    {
+        "Company": "STARON Ent. (스타온 엔터테인먼트)",
+        "Name": "Eito (金田栄人 / 에이토)",
+        "Age": 20,
+        "Ep. 3": 29,
+        "Ep. 5": 10,
+        "Image": "Eito.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30886"
+    },
+    {
+        "Company": "I.E.One Ent. (缔壹娱乐)",
+        "Name": "He Junjin (何俊锦 / 허쥔진)",
+        "Age": 19,
+        "Ep. 3": 17,
+        "Ep. 5": 16,
+        "Image": "HeJunjin.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30887"
+    },
+    {
+        "Company": "CAT'S EYE Okinawa",
+        "Name": "Hiroto (히로토)",
+        "Age": 21,
+        "Ep. 3": 7,
+        "Ep. 5": 24,
+        "Image": "Hiroto.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30888"
+    },
+    {
+        "Company": "SBTown",
+        "Name": "JL (제이엘)",
+        "Age": 20,
+        "Ep. 3": 9,
+        "Ep. 5": 2,
+        "Image": "JL.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30889"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "James (เจมส์ / 제임스)",
+        "Age": 20,
+        "Ep. 3": 33,
+        "Ep. 5": 21,
+        "Image": "James.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30890"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Jang Kyungho (장경호)",
+        "Age": 23,
+        "Ep. 3": 18,
+        "Ep. 5": 7,
+        "Image": "JangKyungho.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30891"
+    },
+    {
+        "Company": "Top Class Ent. (TOP CLASS 娱乐)",
+        "Name": "Jiang Fan (姜帆 / 지앙판)",
+        "Age": 19,
+        "Ep. 3": 39,
+        "Ep. 5": 36,
+        "Image": "JiangFan.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30892"
+    },
+    {
+        "Company": "Top Class Ent. (TOP CLASS 娱乐)",
+        "Name": "Jin Ziming (晋子铭 / 진즈밍)",
+        "Age": 17,
+        "Ep. 3": 28,
+        "Ep. 5": 40,
+        "Image": "JinZiming.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30893"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Kairi (今井 魁里 / 카이리)",
+        "Age": 21,
+        "Ep. 3": 15,
+        "Ep. 5": 18,
+        "Image": "Kairi.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30894"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Kang Junhyuk (강준혁)",
+        "Age": 17,
+        "Ep. 3": 41,
+        "Ep. 5": 41,
+        "Image": "KangJunhyuk.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30895"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Kenta (豊田賢太 / 켄타)",
+        "Age": 22,
+        "Ep. 3": 6,
+        "Ep. 5": 6,
+        "Image": "Kenta.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30896"
+    },
+    {
+        "Company": "Eighty6",
+        "Name": "Keum Jinho (금진호)",
+        "Age": 23,
+        "Ep. 3": 24,
+        "Ep. 5": 17,
+        "Image": "KeumJinho.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30897"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Kim Daeyun (김대윤)",
+        "Age": 22,
+        "Ep. 3": 23,
+        "Ep. 5": 29,
+        "Image": "KimDaeyun.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30898"
+    },
+    {
+        "Company": "STARON Ent. (스타온 엔터테인먼트)",
+        "Name": "Kim Dongyun (김동윤)",
+        "Age": 16,
+        "Ep. 3": 40,
+        "Ep. 5": 14,
+        "Image": "KimDongyun.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30899"
+    },
+    {
+        "Company": "PocketDol Studio (포켓돌스튜디오)",
+        "Name": "Kim Gi-joong (김기중)",
+        "Age": 23,
+        "Ep. 3": 5,
+        "Ep. 5": 25,
+        "Image": "KimGijoong.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30900"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Kim Hyotae (김효태)",
+        "Age": 20,
+        "Ep. 3": 34,
+        "Ep. 5": 30,
+        "Image": "KimHyotae.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30901"
+    },
+    {
+        "Company": "FirstOne Ent. (퍼스트원엔터테인먼트)",
+        "Name": "Kim Joohyoung (김주형)",
+        "Age": 21,
+        "Ep. 3": 24,
+        "Ep. 5": 13,
+        "Image": "KimJoohyoung.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30902"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Koo Hanseo (구한서)",
+        "Age": 22,
+        "Ep. 3": 21,
+        "Ep. 5": 20,
+        "Image": "KooHanseo.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30903"
+    },
+    {
+        "Company": "PI Corporation (피아이코퍼레이션)",
+        "Name": "Kwon Heejun (권희준)",
+        "Age": 23,
+        "Ep. 3": 3,
+        "Ep. 5": 12,
+        "Image": "KwonHeejun.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30904"
+    },
+    {
+        "Company": "Top Class Ent. (TOP CLASS 娱乐)",
+        "Name": "Li Zhinuo (李知诺 / 리쯔누오)",
+        "Age": 20,
+        "Ep. 3": 31,
+        "Ep. 5": 19,
+        "Image": "LiZhinuo.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30905"
+    },
+    {
+        "Company": "I.E.One Ent. (缔壹娱乐)",
+        "Name": "Li Zhiwei (李致伟 / 리쯔웨이)",
+        "Age": 22,
+        "Ep. 3": 38,
+        "Ep. 5": 37,
+        "Image": "LiZhiwei.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30906"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Mac (สิริ ไชยกุล / 맥)",
+        "Age": 17,
+        "Ep. 3": 35,
+        "Ep. 5": 23,
+        "Image": "Mac.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30907"
+    },
+    {
+        "Company": "Blossom Ent. (블러썸 엔터테인먼트)",
+        "Name": "Nam Doyoon (남도윤)",
+        "Age": 15,
+        "Ep. 3": 20,
+        "Ep. 5": 31,
+        "Image": "NamDoyoon.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30908"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Park Han (박한)",
+        "Age": 21,
+        "Ep. 3": 12,
+        "Ep. 5": 15,
+        "Image": "ParkHan.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30909"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Park Jihun (박지훈)",
+        "Age": 18,
+        "Ep. 3": 42,
+        "Ep. 5": 39,
+        "Image": "ParkJihun.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30910"
+    },
+    {
+        "Company": "Bill Ent. (빌엔터테인먼트)",
+        "Name": "Park Juwon (박주원)",
+        "Age": 18,
+        "Ep. 3": 1,
+        "Ep. 5": 9,
+        "Image": "ParkJuwon.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30911"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Park Yeonjun (박연준)",
+        "Age": 17,
+        "Ep. 3": 37,
+        "Ep. 5": 42,
+        "Image": "ParkYeonjun.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30912"
+    },
+    {
+        "Company": "TOV Ent. (TOV 엔터테인먼트)",
+        "Name": "Royce (张子胤 / 로이스)",
+        "Age": 23,
+        "Ep. 3": 32,
+        "Ep. 5": 35,
+        "Image": "Royce.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30913"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Seo Jeongwoo (서정우)",
+        "Age": 23,
+        "Ep. 3": 2,
+        "Ep. 5": 8,
+        "Image": "SeoJeongwoo.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30914"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Sirin (สิริน เรืองวรรณ / 시린)",
+        "Age": 16,
+        "Ep. 3": 29,
+        "Ep. 5": 26,
+        "Image": "Sirin.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30915"
+    },
+    {
+        "Company": "EVA Ent. (EVA 엔터테인먼트)",
+        "Name": "Steven (스티븐)",
+        "Age": 24,
+        "Ep. 3": 14,
+        "Ep. 5": 4,
+        "Image": "Steven.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30916"
+    },
+    {
+        "Company": "Top Class Ent. (TOP CLASS 娱乐)",
+        "Name": "Xie Yuxin (解雨鑫 / 시웨이신)",
+        "Age": 19,
+        "Ep. 3": 27,
+        "Ep. 5": 38,
+        "Image": "XieYuxin.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30917"
+    },
+    {
+        "Company": "Individual Trainee (개인연습생)",
+        "Name": "Yeo Gangdong (여강동)",
+        "Age": 17,
+        "Ep. 3": 10,
+        "Ep. 5": 34,
+        "Image": "YeoGangdong.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30918"
+    },
+    {
+        "Company": "SME Japan (日本SME)",
+        "Name": "Yuito (榎本 唯人 / 유이토)",
+        "Age": 16,
+        "Ep. 3": 19,
+        "Ep. 5": 27,
+        "Image": "Yuito.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30919"
+    },
+    {
+        "Company": "Bill Ent. (빌엔터테인먼트)",
+        "Name": "Zen Zen (กิตติกวิน สายสังวร / 젠젠)",
+        "Age": 15,
+        "Ep. 3": 36,
+        "Ep. 5": 33,
+        "Image": "ZenZen.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30920"
+    },
+    {
+        "Company": "Well Ent.",
+        "Name": "Zhang Shuaibo (张帅博 / 장 슈아이 보)",
+        "Age": 22,
+        "Ep. 3": 8,
+        "Ep. 5": 3,
+        "Image": "ZhangShuaibo.jpg",
+        "Bio URL": "https://programs.sbs.co.kr/enter/universeleague/profile/84054/30921"
+    }
+]
